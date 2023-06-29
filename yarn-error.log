@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/arshankhanifar/.nvm/versions/node/v16.14.2/bin/node /Users/arshankhanifar/.nvm/versions/node/v16.14.2/bin/yarn add @0xsquid/sdk
+
+PATH: 
+  /Users/arshankhanifar/google-cloud-sdk/bin:/Users/arshankhanifar/Library/pnpm:/Users/arshankhanifar/.fuelup/bin:/Users/arshankhanifar/miniconda3/bin:/Users/arshankhanifar/miniconda3/condabin:/Users/arshankhanifar/google-cloud-sdk/bin:/Users/arshankhanifar/.nvm/versions/node/v16.14.2/bin:/Users/arshankhanifar/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/arshankhanifar/.cargo/bin:/Users/arshankhanifar/Library/Application Support/JetBrains/Toolbox/scripts:/Users/arshankhanifar/Library/Android/sdk/emulator:/Users/arshankhanifar/Library/Android/sdk/tools:/Users/arshankhanifar/Library/Android/sdk/tools/bin:/Users/arshankhanifar/Library/Android/sdk/platform-tools:/Users/arshankhanifar/.yarn/bin:/Users/arshankhanifar/.arshan/bin:/bin:/Users/arshankhanifar/go/bin:/Users/arshankhanifar/.fzf/bin:/Users/arshankhanifar/.foundry/bin:/Users/arshankhanifar/.protostar/dist/protostar
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/arshankhanifar/trying_shit/squid-example/package.json: Unexpected token } in JSON at position 93
+      at JSON.parse (<anonymous>)
+      at /Users/arshankhanifar/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/arshankhanifar/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/arshankhanifar/.nvm/versions/node/v16.14.2/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "squid-example",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
